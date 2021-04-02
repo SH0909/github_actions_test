@@ -29,3 +29,6 @@ jobs:
       run: |
         python setup.py sdist bdist_wheel
         twine upload dist/*
+    - name: run fibo.py
+      run: |
+        python fibo.py
