@@ -1,6 +1,5 @@
 #!/usr/bin/python
-n=int(input("enter number:"))
-#print n
+n=6
 prev=1
 cur=1
 i=0
